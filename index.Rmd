@@ -1,0 +1,27 @@
+---
+title: "bioconductor airpart"
+output: html_document
+date: "2023-06-14"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(airpart)
+suppressPackageStartupMessages(library(SingleCellExperiment))
+p.vec <- rep(c(0.2, 0.8, 0.5, 0.5, 0.7, 0.9), each = 2)
+set.seed(2021)
+sce <- makeSimulatedData(
+  mu1 = 2, mu2 = 10, nct = 4, n = 20,
+  ngenecl = 25, theta = 20, ncl = 3,
+  p.vec = p.vec
+)
+u <- unique(rowData(sce))
+```
+
+## Bioconductor
+
+This is a bioconductor example
+
+```{r bioc, echo=FALSE}
+knitr::kable(u, format="html")
+```
