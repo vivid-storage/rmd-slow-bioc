@@ -3580,7 +3580,7 @@
         "Package": "scater",
         "Type": "Package",
         "Authors@R": "c(\n        person(\"Davis\", \"McCarthy\", role=c(\"aut\"), email=\"davis@ebi.ac.uk\"),\n        person(\"Kieran\", \"Campbell\", role=c(\"aut\"), email=\"kieran.campbell@sjc.ox.ac.uk\"),\n        person(\"Aaron\", \"Lun\", role = c(\"aut\", \"ctb\"), email=\"infinite.monkeys.with.keyboards@gmail.com\"),\n        person(\"Quin\", \"Wills\", role=c(\"aut\"), email=\"qilin@quinwills.net\"),\n        person(\"Vladimir\", \"Kiselev\", role=c(\"ctb\"), email=\"vk6@sanger.ac.uk\"),\n        person(\"Felix G.M.\", \"Ernst\", role=c(\"ctb\"), email=\"felix.gm.ernst@outlook.com\"),\n        person(\"Alan\", \"O'Callaghan\", role=c(\"ctb\", \"cre\"), email=\"alan.ocallaghan@outlook.com\"),\n        person(\"Yun\", \"Peng\", role=c(\"ctb\"), email=\"yunyunp96@gmail.com\"),\n        person(\"Leo\", \"Lahti\", role=c(\"ctb\"), email=\"leo.lahti@utu.fi\", comment = c(ORCID = \"0000-0001-5537-637X\")),\n        person(\"Tuomas\", \"Borman\", role = c(\"ctb\"), comment = c(ORCID = \"0000-0002-8563-8884\"))\n    )",
-        "Version": "1.38.0",
+        "Version": "1.38.1",
         "Date": "2025-03-07",
         "License": "GPL-3",
         "Title": "Single-Cell Analysis Toolkit for Gene Expression Data in R",
